@@ -1,92 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
-    <title>Portafolio | Donald Osorio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donald Osorio - Portafolio</title>
 </head>
-
-
 <body>
     <header>
+        <span class="logo">UMG</span>
+        <nav></nav>
     </header>
-
     <main>
-        <section id="sobre-mi">
-	<img src="imagen de presentacion.png" alt="Donald Osorio" class="foto-perfil">
-            <h1>Hola, soy Donald Osorio</h1>
-            <h2>Este es mi portafolio</h2>
-            <p>soy estudiante de la Universidad mariano Galvez de 4to año de ingenieria</p>
-            <p>
-                <a href="#contacto">Hablemos</a> |
-                <a href="https://github.com/donaldosorio">Github</a>
-                <a href="donaldestuardo09@gmail.com">Correo Electronico</a>
-            </p>
-        </section>
-        <nav>
-            <ul>
-                <li><a href="#sobre-mi">Sobre mi</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#habilidades">Curriculum Vitae</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="info">
+            <div class="contenedor-foto">
+                <img src="ImagenPersonal.jpeg" alt="Donald Osorio">
+            </div>
 
-        <section>
-
-        <section>
-
-            <article>
-            <h2>Estudiante de 4to Año de Inge | Aprendiendo en bloc de notas</h2>
-                <p>
-                    <strong>Descripcion:</strong>  aca se ira actualizando el portafolio de la clase de desarrollo web para ver poder ver el desempeño de mis aprendizajes
-                </p>
-                    <h4>Stack Tecnologico: </h4>
-                    <ul>
-                        <li> Aprender mas sobre bloc de notas </li>
-                        <li> Utiliacion de bases de Datos en: MySQL </li>
-                    </ul>
-
-                    <h4>Planes a futuro</h4>
-                    <p>poder utilizar de mejor manera html mostrando mis avances en el mismo portafolio</p>
-
-
-            </article>
-
-            <hr>
-
-            <article>
-                <h3>Soy estuidiante de la UMG</h3>
-                <p>
-                    <strong>Descripcion: </strong> Estoy en la busqueda de ser una mejor persona en la vida mientras crecemos en el hambito profesional
-                </p>
-
-                <h4>Stack Tecnologico: </h4>
-<ul>
-    <li><strong>Lenguaje:</strong> C#</li>
-    <li><strong>Base de Datos:</strong> MySQL</li>
-</ul>
-
-                </p>
-
-                <p>
-                    <a href="" target="_blank"></a>
-                    <a href="" target="_blank"></a>
-                    <a href="#" target=""></a>
-                </p>
-
-            </article>
-        </section>
-
-
-        <section>
-
-        </section>
-
+            <p class="welcome">¡Hola!, soy <span></span></p>
+            <h1>Donald Estuardo <span>Osorio Pérez</span></h1>
+            <span class="tag-role">Estudiante de Ingeniería en Sistemas</span>
+            <p class="quote">Aprendiendo, creando y creciendo en el mundo de la tecnología</p>
+            
+            <div class="botones-container">
+                <a href="#proyectos" style="text-decoration: none;">
+                <button class="btn-main">💡 Ver mis proyectos</button>
+                </a>                
+                <a href="mailto:dosoriop3@miumg.edu.gt" style="text-decoration: none;">
+                <button class="btn-secundario">✉️ Contacto</button>
+                </a>
+                <a href="https://www.instagram.com/donaldosor.__/" target="_blank" style="text-decoration: none;">
+                    <button class="btn-secundario">🌐 Instagram</button>
+                </a>
+                <a href="https://github.com/donaldosorio" target="_blank" style="text-decoration: none;">
+                <button class="btn-secundario">🐙 GitHub</button>
+                </a>
+            </div>
+        </div>
     </main>
+    <section class="projects-section" id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="projects-grid">
+            
+            <article class="project-card">
+                <h3>Asignacion de cursos</h3>
+                <p>Un proyecto realizado en conjunto con un grupo de compañeros en la Universidad Mariano Galvez de Guatemala, en donde diferentes
+                    usuarios: estdiante, catedratico, usuario master, podran realizar lo que es la asignacion inscripcion o establecer los cursos que se 
+                    llevan en el semestre
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/k0k4depelover/asignacion-cursos-umg.git" target="_blank" class="btn-secundario">Ver Código</a>
+                </div>
+            </article>
 
-    <footer>
-        <!-- Pie de página -->
-    </footer>
+            <article class="project-card">
+                <h3>Examen prepractico en pagina web</h3>
+                <p>Como un proyecto final en la clase de programacion II tuvimos que realizar un login de un usuario el cual se iba a someter
+                    para realizar una seleccion de distintos cursos que queria aprender, a lo cual se le motraba un material interactivo donde 
+                    el estudiante podia repasar, posterio a esto el usuario podia tomar la decicion de realizar un pequeño corto,
+                    en donde se miraria si sus conociemientos adquiridos eran correctos.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/donaldosorio/Proyecto-Final.git" target="_blank" class="btn-secundario">Ver Código</a>
+                </div>
+            </article>
+        </div>
+    </section>
 </body>
 </html>
