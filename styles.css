@@ -171,7 +171,6 @@ button {
     100% { transform: rotate(360deg); }
 }
 
-/* --- SECCIÓN DE PROYECTOS --- */
 .projects-section {
     max-width: 900px;
     margin: 60px auto;
